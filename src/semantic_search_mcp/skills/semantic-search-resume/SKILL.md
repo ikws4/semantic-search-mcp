@@ -1,5 +1,5 @@
 ---
-name: semantic-search:resume
+name: semantic-search-resume
 description: Use when you want to resume the semantic search file watcher after pausing it
 ---
 

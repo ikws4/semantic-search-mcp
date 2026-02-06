@@ -11,7 +11,7 @@ Trigger a full reindex of the codebase for semantic search.
 1. Call `mcp__semantic-search__reindex` tool with `force: true`
 2. Immediately call `mcp__semantic-search__get_status` to show initial progress
 3. Inform the user that indexing is running in the background
-4. Tell them they can check progress with `/semantic-search:status`
+4. Tell them they can check progress with `/semantic-search-status`
 
 ## Options
 

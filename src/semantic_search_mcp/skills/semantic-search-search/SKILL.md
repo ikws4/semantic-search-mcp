@@ -1,5 +1,5 @@
 ---
-name: semantic-search:search
+name: semantic-search-search
 description: Use when searching the codebase with natural language queries like "authentication logic" or "database connection"
 ---
 
@@ -9,7 +9,7 @@ Search the codebase using natural language.
 
 ## Action
 
-1. Take the user's query (everything after `/semantic-search:search`)
+1. Take the user's query (everything after `/semantic-search-search`)
 2. Call `mcp__semantic-search__search_code` with:
    - `query`: the user's search terms
    - `max_results`: 10 (default, adjust if user specifies)
@@ -20,10 +20,10 @@ Search the codebase using natural language.
 
 ## Examples
 
-User: `/semantic-search:search authentication middleware`
+User: `/semantic-search-search authentication middleware`
 → Search for "authentication middleware"
 
-User: `/semantic-search:search database connection pooling`
+User: `/semantic-search-search database connection pooling`
 → Search for "database connection pooling"
 
 ## Optional Filters
