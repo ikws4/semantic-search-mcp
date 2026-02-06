@@ -1,5 +1,5 @@
 ---
-name: semantic-search:cancel
+name: semantic-search-cancel
 description: Use when you want to stop a running indexing job
 ---
 

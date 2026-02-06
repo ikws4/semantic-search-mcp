@@ -1,5 +1,5 @@
 ---
-name: semantic-search:status
+name: semantic-search-status
 description: Use when you want to check semantic search server status, indexing progress, or watcher state
 ---
 
